@@ -30,10 +30,10 @@ const bodyQuote = `
 
 const App:React.FC = () =>{
 
-    const [title,setTitle] = useState('Stefan');
+    const [title,setTitle] = useState('0length');
 
     useEffect(()=>{
-        document.title = 'Hellow ${title}';
+        document.title = `Hellow ${title}`;
     }, [title])
 
     return (
